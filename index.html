@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio dolores blanditiis aut distinctio, <br>esse odit aliquam harum eius reprehenderit quibusdam.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, et amet. Accusantium, deserunt sit! Provident ratione aut animi magni molestiae!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, et amet. Accusantium, deserunt sit! Provident ratione aut animi magni molestiae!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Gratuation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, et amet. Accusantium, deserunt sit! Provident ratione aut animi magni molestiae!</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our Global Cumpas</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nemo?</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, saepe?</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/library.png" alt="">
+            <h3>World Class Libray</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptas.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/basketball.png" alt="">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptas.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/cafeteria.png" alt="">
+            <h3>Testy And Health Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptas.</p>
+        </div>
+    </div>
+   </section>
+
+   <div class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, accusantium.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="img/user1.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas repellendus id pariatur numquam cupiditate ex eum repudiandae ad voluptatem!</p>
+                <h3>Chirstine Berkley</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o "></i>
+            </div>
+            </div>
+        <div class="testimonial-col">
+            <img src="img/user2.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas repellendus id pariatur numquam cupiditate ex eum repudiandae ad voluptatem!</p>
+                <h3>David Byer</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o "></i>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+           navLink.style.right = "0" 
+        }
+        function hideMenu() {
+           navLink.style.right = "-200px" 
+        }
+    </script>
+</body>
+</html>
